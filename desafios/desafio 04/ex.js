@@ -38,14 +38,13 @@ while (num >= 0) {
 
 */
 
-let pergunta = prompt(
-  "A partir de que número você quer começar a contagem regressiva?"
+// CONTAGEM PROGRESSIVA
+let num = prompt(
+  "A partir de que número você quer começar a contagem progressiva?"
 );
-let num;
-num = pergunta;
 contador = 0;
 
 while (contador <= num) {
-  console.log(`${num}`);
+  console.log(`${contador}`);
   contador++;
 }
